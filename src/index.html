@@ -10,76 +10,139 @@
     <title>Hello, world!</title>
   </head>
   <body>
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="#">Apfelwunder</a>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#our_brew">Our Brew</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#wie_geht_das"
+                tabindex="-1"
+                aria-disabled="true"
+                >Wie geht das?</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- /Navbar -->
+
     <main>
       <h1>
         Mein wunderbarer
         <strong class="text-primary">BIO</strong> Apfelsaftladen.
       </h1>
       <p>The best supersaft in town.</p>
-      <input type="text" placeholder="Search here." />
-    </main>
 
-    <section>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-4">
-            <div class="card">
-              <img
-                src="https://images.unsplash.com/photo-1549231482-5cf39d19fba4?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=933&q=80"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Corona</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" class="btn btn-primary">Gimme more ></a>
+      <!-- Gallery -->
+      <section class="pt-3">
+        <h2 id="our_brew">Our fresh brew</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="card">
+                <img
+                  src="https://images.unsplash.com/photo-1549231482-5cf39d19fba4?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=933&q=80"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Corona</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-primary">Gimme more ></a>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="col-sm-4">
-            <div class="card">
-              <img
-                src="https://images.unsplash.com/photo-1533218065445-9c1478886300?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjF8fGslQzMlQjZsc2NoJTIwYmllcnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Desperado</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" class="btn btn-primary">High's</a>
+            <div class="col-sm-4">
+              <div class="card">
+                <img
+                  src="https://images.unsplash.com/photo-1533218065445-9c1478886300?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjF8fGslQzMlQjZsc2NoJTIwYmllcnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Desperado</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-primary">High's</a>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="col-sm-4">
-            <div class="card">
-              <img
-                src="https://images.unsplash.com/photo-1575026790968-a60e29365048?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTF8fGhvbWVicmV3JTIwYmVlcnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">AL&Theta;A</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" class="btn btn-primary">Cheers</a>
+            <div class="col-sm-4">
+              <div class="card">
+                <img
+                  src="https://images.unsplash.com/photo-1575026790968-a60e29365048?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTF8fGhvbWVicmV3JTIwYmVlcnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">AL&Theta;A</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-primary">Cheers</a>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+      <!-- /Gallery -->
 
-    <footer>
+      <section id="wie_geht_das">
+        <h2>Wie geht das?</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="knoeppe">
       <div style="margin-top: 2em">
         <button type="button" class="btn btn-primary" onclick="stop()">
           Add some &permil;.
@@ -94,8 +157,10 @@
         </button>
       </div>
     </footer>
+    <!-- /Footer -->
   </body>
 
+  <!-- Scripts -->
   <script>
     function stop() {
       alert("Do not Drink & Drive.");

@@ -9,11 +9,23 @@ $primary: rgb(255, 203, 105);
 @import "~bootstrap/scss/bootstrap";
 
 // Add you custom CSS
+
 body {
+  padding: 0px;
+  min-height: 2500px;
+}
+main {
   padding: 20px;
+}
+footer.knoeppe {
+  padding: 1em;
 }
 section {
   margin-top: 1em;
+}
+
+h2 {
+  margin-top: 2em;
 }
 .card {
   margin-top: 1em;
