@@ -10,10 +10,20 @@ $primary: rgb(255, 203, 105);
 
 // Add you custom CSS
 body {
+  padding: 0px;
+}
+main {
+  padding: 20px;
+}
+footer.knoeppe {
   padding: 20px;
 }
 section {
   margin-top: 1em;
+}
+
+h2 {
+  margin-top: 2em;
 }
 .card {
   margin-top: 1em;
