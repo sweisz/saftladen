@@ -9,14 +9,16 @@ $primary: rgb(255, 203, 105);
 @import "~bootstrap/scss/bootstrap";
 
 // Add you custom CSS
+
 body {
   padding: 0px;
+  min-height: 2500px;
 }
 main {
   padding: 20px;
 }
 footer.knoeppe {
-  padding: 20px;
+  padding: 1em;
 }
 section {
   margin-top: 1em;
