@@ -18,5 +18,93 @@
       <p>The best supersaft in town.</p>
       <input type="text" placeholder="Search here." />
     </main>
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card">
+              <img
+                src="https://images.unsplash.com/photo-1549231482-5cf39d19fba4?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=933&q=80"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Corona</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Gimme more ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4">
+            <div class="card">
+              <img
+                src="https://images.unsplash.com/photo-1533218065445-9c1478886300?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjF8fGslQzMlQjZsc2NoJTIwYmllcnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Desperado</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">High's</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4">
+            <div class="card">
+              <img
+                src="https://images.unsplash.com/photo-1575026790968-a60e29365048?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTF8fGhvbWVicmV3JTIwYmVlcnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">AL&Theta;A</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Cheers</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div style="margin-top: 2em">
+        <button type="button" class="btn btn-primary" onclick="stop()">
+          Add some &permil;.
+        </button>
+        <button
+          type="button"
+          id="darkbeer"
+          class="btn btn-dark darkbeer"
+          onclick="getdark()"
+        >
+          I like dark beer.
+        </button>
+      </div>
+    </footer>
   </body>
+
+  <script>
+    function stop() {
+      alert("Do not Drink & Drive.");
+    }
+    function getdark() {
+      // alert("DARK BEER.");
+      var element = document
+        .querySelector("body")
+        .classList.toggle("body-dark");
+    }
+  </script>
 </html>
